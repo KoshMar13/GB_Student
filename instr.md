@@ -57,4 +57,10 @@
 
 *git branch -d 'branch_name'* - **удаляет указанную ветку**
 
+## Other
+
 *git clone <url>* - **клонировоние существующего репозитория, расположенного по url-адресу**
+
+*git commit --amend -m 'insert new commit'* - **редактирование ПОСЛЕДНЕГО коммита**
+
+*git revert commitID* - **редактирование комментария ID**
