@@ -57,6 +57,8 @@
 
 *git branch -d branch_name* - **удаляет указанную ветку**
 
+*git checkout -b branch_name* - **создаёт ветку**
+
 ## Other
 
 *git clone <url>* - **клонировоние существующего репозитория, расположенного по url-адресу**
