@@ -2,9 +2,9 @@
 
 ## Initial commands and setup
 
-*git config --global user.name 'Insert your name'* - **ввод своего имени**
+*git config --global user.name Insert_your_name* - **ввод своего имени**
 
-*git config --global user.email 'Insert your email'* - **ввод своей эл.почты**
+*git config --global user.email Insert_your_email* - **ввод своей эл.почты**
 
 *git init* - **команда для инициализации пустого репозитория**
 
@@ -12,7 +12,7 @@
 
 *git add .\ * - **команда для добавления версионности к файлу**
 
-*git commit -m "insert message"* - **команда для фиксации изменений файла**
+*git commit -m insert_message* - **команда для фиксации изменений файла**
 
 *git log* - **команда для вывода журнала коммитов. Имеет множество опций, самая полезная - --pretty**
 
@@ -45,23 +45,23 @@
 
 ## Branches
 
-*git branch -m 'insert new name'*- **переименование текущей ветки**
+*git branch -m insert_new_name*- **переименование текущей ветки**
 
-*git branch 'insert name'* - **добавляет новую ветку**
+*git branch insert_name* - **добавляет новую ветку**
 
 *git branch* - **выводит список веток с указанием текущей ветки**
 
-*git checkout 'branch_name'* - **переводит в указанную ветку**
+*git checkout branch_name* - **переводит в указанную ветку**
 
-*git merge 'branch_name'* - **сливает указанную ветку с текущей**
+*git merge branch_name* - **сливает указанную ветку с текущей**
 
-*git branch -d 'branch_name'* - **удаляет указанную ветку**
+*git branch -d branch_name* - **удаляет указанную ветку**
 
 ## Other
 
 *git clone <url>* - **клонировоние существующего репозитория, расположенного по url-адресу**
 
-*git commit --amend -m 'insert new commit'* - **редактирование ПОСЛЕДНЕГО коммита**
+*git commit --amend -m insert_new_commit* - **редактирование ПОСЛЕДНЕГО коммита**
 
 *git revert commitID* - **редактирование комментария ID**
 
