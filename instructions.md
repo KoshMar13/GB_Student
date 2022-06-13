@@ -13,3 +13,5 @@
 *git branch -d branch_name* - **удаляет указанную ветку**
 
 *git checkout -b branch_name* - **создаёт ветку**
+
+*git rebase branch_name* - **переписывает текущую ветку поверх ветки branch_name, подчищая историю** 
